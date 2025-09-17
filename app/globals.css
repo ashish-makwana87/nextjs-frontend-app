@@ -45,7 +45,7 @@ body {
     @apply text-4xl font-semibold tracking-wide capitalize md:text-5xl;
   }
   h3 {
-    @apply text-3xl font-semibold tracking-wide capitalize md:text-4xl;
+    @apply text-3xl font-semibold tracking-wide md:text-4xl;
   }
   h4 {
     @apply text-lg font-semibold tracking-wide capitalize md:text-xl;
