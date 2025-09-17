@@ -6,8 +6,8 @@ import TryNowButton from "./TryNowButton"
 function Navbar() {
 
   return (
-    <nav className=''>
-    <section className='alignment p-4 md:py-6 md:px-10 h-16 md:h-28 grid grid-cols-2 md:grid-cols-[1fr_auto_1fr] justify-between items-center border-2'>
+    <nav className='mt-0 md:mt-10 '>
+    <section className='alignment p-4 md:py-6 md:px-10 h-16 md:h-28 grid grid-cols-2 md:grid-cols-[1fr_auto_1fr] justify-between items-center'>
      <Logo />
      <NavLinks />
      <TryNowButton />
