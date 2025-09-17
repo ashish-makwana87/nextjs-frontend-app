@@ -7,7 +7,7 @@ import Logo from '../hero/Logo';
 function Footer() {
 
   return (
-    <footer className='w-full h-[18rem] z-30 bg-black relative'>
+    <footer className='w-full h-[18rem] z-40 bg-black relative'>
      <div className='alignment py-16 px-10 md:py-20'>
      {/* socials section */}
      <div className='grid md:grid-cols-[1fr_auto] md:justify-between md:items-center gap-y-6 mb-10 md:mb-20'>

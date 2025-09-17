@@ -1,4 +1,5 @@
 'use client'
+import Features from "@/components/features/Features";
 import Footer from "@/components/footer/Footer";
 import HeroSection from "@/components/hero/HeroSection";
 import Navbar from "@/components/hero/Navbar";
@@ -24,6 +25,7 @@ const [scrolled, setScrolled] = useState(false);
   <Ribbon visible={!scrolled} />
   <HeroSection />
   <Introduction />
+  <Features />
   <Footer />
   </>
   );
