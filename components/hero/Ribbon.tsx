@@ -3,7 +3,9 @@ import * as motion from "motion/react-client"
 const features = ["30-days money back guarantee", "Unlimited Access", "No hidden costs", "30-days money back guarantee", "Unlimited Access", "No hidden costs"];
 
 function Ribbon() {
-
+ 
+ // if (!visible) return null;
+ 
  const scrollItems = [...features, ...features];
 
 
